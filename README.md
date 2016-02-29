@@ -5,10 +5,12 @@
      src="http://postcss.github.io/postcss/logo-leftp.svg">
 
 [PostCSS] plugin to remove every :hover selector.
+Attempts to solve [this issue] for shared styles built separately for different platforms.
 
 [PostCSS]:                    https://github.com/postcss/postcss
 [ci-img]:                     https://travis-ci.org/RoundingWellOS/postcss-hover.svg
 [ci]:                         https://travis-ci.org/RoundingWellOS/postcss-hover
+[this issue]:                 https://www.nczonline.net/blog/2012/07/05/ios-has-a-hover-problem/
 
 ```css
 .button {
