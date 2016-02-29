@@ -4,7 +4,7 @@
      title="Philosopher’s stone, logo of PostCSS"
      src="http://postcss.github.io/postcss/logo-leftp.svg">
 
-[PostCSS] plugin to add `:focus` selector to every `:hover`.
+[PostCSS] plugin to remove every :hover selector.
 
 [PostCSS]:                    https://github.com/postcss/postcss
 [ci-img]:                     https://travis-ci.org/RoundingWellOS/postcss-hover.svg
