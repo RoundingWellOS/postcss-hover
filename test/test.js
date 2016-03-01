@@ -9,12 +9,12 @@ var test = function (input, output) {
 
 describe('postcss-focus', function () {
 
-    it('adds focus selector', function () {
-        test('a:hover, b {}', 'a:hover, b, a:focus {}');
+    it('removes hover selector', function () {
+        test('a:hover {} b {}', 'b {}');
     });
 
-    it('adds focus selectors', function () {
-        test('a:hover, b:hover {}', 'a:hover, b:hover, a:focus, b:focus {}');
+    it('removes hover selector with child stylings', function () {
+        test('a:hover span {} b {}', 'b {}');
     });
 
 });
