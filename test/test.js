@@ -17,4 +17,8 @@ describe('postcss-focus', function () {
         test('a:hover span {} b {}', 'b {}');
     });
 
+    it('removes hover selector with multiple selectors', function () {
+        test('a:hover, b.visible {}', 'b.visible {}');
+    });
+
 });
