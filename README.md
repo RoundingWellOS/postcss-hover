@@ -19,11 +19,21 @@ Attempts to solve [this issue] for shared styles built separately for different 
 .button:hover {
     background: red;
 }
+
+// multiline selectors
+.link:hover,
+.link.selected {
+	background: green;
+}
 ```
 
 ```css
 .button {
     background: blue;
+}
+
+.link.selected {
+	background: green;
 }
 ```
 
