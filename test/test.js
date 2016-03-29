@@ -21,4 +21,8 @@ describe('postcss-focus', function () {
         test('a:hover, b.visible {}', 'b.visible {}');
     });
 
+    it('removes hover selector with compressed selectors', function () {
+        test('a:hover,b.visible {}', 'b.visible {}');
+    });
+
 });
