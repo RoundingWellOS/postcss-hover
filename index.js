@@ -1,6 +1,6 @@
 var postcss = require('postcss');
 
-module.exports = postcss.plugin('postcss-focus', function () {
+module.exports = postcss.plugin('postcss-hover', function () {
     return function (css) {
         css.walkRules(function (rule) {
             if (rule.selector.indexOf(':hover') !== -1) {
